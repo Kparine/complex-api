@@ -1,0 +1,37 @@
+[{
+    "id": "1",
+    "title": "Catch 22",
+    "borrowed": "true",
+    "author": []
+  },
+  {
+    "id": "2",
+    "title": "In Search of Lost Time",
+    "borrowed": "false",
+    "author": []
+  },
+  {
+    "id": "3",
+    "title": "Don Quixote",
+    "borrowed": "true",
+    "author": []
+  },
+  {
+    "id": "4",
+    "title": "Ulysses",
+    "borrowed": "false",
+    "author": []
+  },
+  {
+    "id": "5",
+    "title": "The Great Gatsby",
+    "borrowed": "true",
+    "author": []
+  },
+  {
+    "id": "6",
+    "title": "Everybody Poops",
+    "borrowed": "true",
+    "author": []
+  }
+]
