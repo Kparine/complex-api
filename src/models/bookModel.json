@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Catch 22",
+        "borrowed": true,
+        "author": []
+    },
+    {
+        "id": "2",
+        "title": "In Search of Lost Time",
+        "borrowed": false,
+        "author": []
+    },
+    {
+        "id": "3",
+        "title": "Don Quixote",
+        "borrowed": true,
+        "author": []
+    },
+    {
+        "id": "4",
+        "title": "Ulysses",
+        "borrowed": false,
+        "author": []
+    },
+    {
+        "id": "4b68f6f0-fcf1-4917-ac5c-7d6cc5045d63",
+        "name": "Pacok",
+        "author": [],
+        "borrowed": true
+    }
+]

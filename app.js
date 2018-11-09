@@ -4,12 +4,14 @@ const port = process.env.PORT || 3000
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 
-app.disable('x-powered-by')
+// app.disable('x-powered-by')
 app.use(bodyParser.json())
-if (process.env.NODE_ENV === 'development') app.use(morgan('dev'))
+app.use(morgan('dev'))
 
-const booksRoutes = require('./src/routes/books')
+const booksRoutes = require('./src/routes/books.js')
 app.use('/books', booksRoutes)
+const authorsRoutes = require('./src/routes/authors.js')
+app.use('/books/:bookId/authors', authorsRoutes)
 
 app.use((err, req, res, next) => {
   console.error(err)
