@@ -5,6 +5,9 @@ const bookModel = require('../models/book.js')
 function getAllBooks(req, res, next){
   const id = req.params.bookId
   const data = bookModel.getAllBooks(id)
+  
+  // this error checking is not necessary.
+  // it will never trigger
   let result = []
   
   if (result.errors) {
@@ -40,6 +43,7 @@ function getAllAuthors(req, res, next){
 
 //Create a book
 function createBook(req, res, next){
+  // make sure to remove all console.logs' in your future work
   console.log(req.body)
   const result = bookModel.createBook(req.body)
 
