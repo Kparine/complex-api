@@ -15,6 +15,7 @@ function getAllAuthors(bookId) {
       errors
     }
   }
+  // no console.logs' in final submissions
   console.log(books)
   const authors = readAuthors()
 
